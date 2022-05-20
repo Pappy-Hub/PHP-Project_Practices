@@ -1,5 +1,13 @@
 <?php
 /*
+
+
+/*PHP page that is able to perform basic calculations: 
+addition, subtraction, division, multiplication, and modulus.
+the calculator should accept 2 parameters and produce 
+results based on the specific operator.*/
+
+        //Method A
         function add($a, $b)
         {
             return $sum = $a + $b;
@@ -31,24 +39,38 @@
         function modulus($a, $b)
         {
             return $modulus = $a % $b;
+            return $percent = $a % $b;
         }
-        echo modulus(912, 2);
-        */
+        echo modulus(912, 2); 
+        
 
 
+/*      
+        //Method B
+        $min = 10;
+        $max = 99;
+        echo $answer = $min, $max;
 
+        $answer = ($min + $max);
+        $answer = ($min * $max);
+        $answer = ($min / $max);
+        $answer = ($min % $max);
+        $answer = ($min ** $max);
+
+        echo $answer; */
+
+
+        //Method C
         $min = 10;
         $max = 99;
         
-        $answer = $min + $max;
-        $answer = $min * $max;
-        $answer = $min / $max;
-        $answer = $min % $max;
-        $answer = $min ** $max;
-
-        echo $answer;
-        
-
+        echo "MIN: $min " . "MAX: $max <br>";
+        echo  "Addition: " . ($min + $max) . "<br>";
+        echo  "Subtraction: " . ($min - $max) . "<br>";
+        echo  "Multiplication: " . ($min * $max) . "<br>";
+        echo  "Division: " . ($min / $max) . "<br>";
+        echo  "Modulus: " . ($min % $max) . "<br>";
+       
 
 
     ?>

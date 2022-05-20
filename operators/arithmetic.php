@@ -12,9 +12,4 @@ echo  "Modulus: " . ($first % $second) . "<br>";
 echo  "Power: " . ($first ** $second) . "<br>";
 
 
-
-
-
-
-
 ?>
