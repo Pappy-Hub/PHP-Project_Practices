@@ -1,4 +1,5 @@
 <?php
+/*
         function add($a, $b)
         {
             return $sum = $a + $b;
@@ -32,5 +33,22 @@
             return $modulus = $a % $b;
         }
         echo modulus(912, 2);
+        */
+
+
+
+        $min = 10;
+        $max = 99;
+        
+        $answer = $min + $max;
+        $answer = $min * $max;
+        $answer = $min / $max;
+        $answer = $min % $max;
+        $answer = $min ** $max;
+
+        echo $answer;
+        
+
+
 
     ?>
