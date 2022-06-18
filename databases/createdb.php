@@ -3,7 +3,7 @@
 include 'connect.php';
 
 //create database query
-$sql = "CREATE DATABASE zuriphp";
+$sql = "CREATE DATABASE loginitsolutions";
 
 if($conn){
     if (mysqli_query($conn, $sql)) {
